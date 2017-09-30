@@ -114,6 +114,7 @@ resource "aws_instance" "spa" {
     Country = "${var.tags["country"]}"
     Segment = "private"
     Role    = "web"
+    Test    = " test"
   }
 
   root_block_device {
